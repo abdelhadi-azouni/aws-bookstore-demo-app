@@ -1580,7 +1580,7 @@ Resources:
     Properties:
       ResourceId: !Ref RecommendationsApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -1638,7 +1638,7 @@ Resources:
     Properties:
       ResourceId: !Ref RecommendationsByBookApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -1699,7 +1699,7 @@ Resources:
     Properties:
       ResourceId: !Ref BooksApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -1764,7 +1764,7 @@ Resources:
     Properties:
       ResourceId: !Ref BookItemApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -1854,7 +1854,7 @@ Resources:
     Properties:
       ResourceId: !Ref OrdersApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2004,7 +2004,7 @@ Resources:
     Properties:
       ResourceId: !Ref CartApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2067,7 +2067,7 @@ Resources:
     Properties:
       ResourceId: !Ref CartItemApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2127,7 +2127,7 @@ Resources:
     Properties:
       ResourceId: !Ref SearchApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2182,7 +2182,7 @@ Resources:
     Properties:
       ResourceId: !Ref BestsellersApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
