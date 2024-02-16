@@ -1579,7 +1579,7 @@ Resources:
     Properties:
       ResourceId: !Ref RecommendationsApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -1637,7 +1637,7 @@ Resources:
     Properties:
       ResourceId: !Ref RecommendationsByBookApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
